@@ -1,3 +1,9 @@
+import runtime_labs
+
+# Before the imports below: they build AI objects at import time, and
+# RuntimeLabs only traces what is created after init().
+runtime_labs.init()
+
 from uuid import uuid4
 from hashlib import sha256
 import json

@@ -78,3 +78,4 @@ zstandard==0.25.0
 langgraph-checkpoint-sqlite
 mcp>=1.28,<2
 cryptography==50.0.2
+runtime-labs-sdk>=0.10.0
